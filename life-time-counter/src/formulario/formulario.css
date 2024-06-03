@@ -1,0 +1,32 @@
+.form {
+    display: flex; /* Organiza os campos em linha */
+    flex-direction: column; /* Organiza os campos em coluna */
+    gap: 5px; /* Espaçamento entre os campos */
+    max-width: 400px; /* Largura máxima do formulário */
+    margin: 0 auto; /* Centraliza o formulário */
+
+  }
+  
+  .form div {
+    display: flex;
+    align-items: center; /* Alinha os rótulos e campos verticalmente */
+  }
+  
+  .form label {
+    width: 150px; /* Largura dos rótulos */
+    margin-right: 10px; /* Espaçamento entre rótulos e campos */
+  }
+  
+  .form input,
+  .form button {
+    padding: 8px;
+    border: 1px solid #8961ca;
+    border-radius: 4px;
+  }
+  
+  .formulario button {
+    background-color: #007bff; /* Cor de fundo do botão */
+    color: rgb(108, 92, 177); /* Cor do texto do botão */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+  }
+  

@@ -1,0 +1,19 @@
+.matriz {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza as linhas horizontalmente */
+  }
+  
+  .linha {
+    display: flex;
+  }
+  
+  .bolinha {
+    width: 20px; /* Diâmetro de 10px */
+    height: 20px;
+    border: 1px solid black; /* Borda preta */
+    border-radius: 50%; /* Faz a bolinha redonda */
+    background-color: rgb(255, 255, 255); /* Cor de fundo branca */
+    margin: 2px; /* Adiciona um pequeno espaçamento entre as bolinhas */
+  }
+  
